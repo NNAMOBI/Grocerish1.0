@@ -8,6 +8,20 @@ module.exports = {
     react: {
       version: 'detect',
     },
+    'import/resolver': {
+      alias: {
+        map: [
+          ['components', './src/components'],
+          ['pages', './src/Pages'],
+          ['constants', './src/constants'],
+          ['Redux', './src/Redux'],
+          ['Service', './src/Service'],
+          ['common', './src/common'],
+          // Add more aliases as defined in your webpack configuration
+        ],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'], // Adjust based on your project
+      },
+    },
   },
   extends: [
     'plugin:react/recommended',

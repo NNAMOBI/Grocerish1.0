@@ -46,6 +46,7 @@ module.exports = {
       patterns: [
         // Define the copying patterns here
         { from: 'src', to: 'destination' },
+        // { from: 'src/static', to: 'static' },
         // You can add more patterns as needed
       ],
     }),

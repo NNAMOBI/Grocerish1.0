@@ -23,3 +23,4 @@ Welcome to our responsive e-commerce web application client! This client is buil
 
    ```bash
    git clone https://github.com/NNAMOBI/Grocerish1.0.git
+   ```

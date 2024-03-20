@@ -15,6 +15,23 @@
       {
         "regenerator": true
       }
-    ]
+    ],
+      [
+        "module-resolver",
+        {
+          // "root": ["./src"],
+          "alias": {
+            // "@icons": "./src/components/icons"
+            "components": "src/components",
+            "pages": "src/Pages",
+            "utils": "src/utils",
+            "constant": "src/constants",
+            "common": "./src/common",
+            "service": "src/Service",
+            "redux": "src/Redux",
+            "hooks": "src/Hooks"
+          }
+        }
+      ]
   ]
 }
